@@ -323,6 +323,26 @@
     <Content Include="Assets\CSS\images\blank.gif" />
     <Content Include="Assets\CSS\images\plugin-disabled.png" />
     <Content Include="Assets\CSS\images\plugin-enabled.png" />
+    <Content Include="Assets\Images\emoticons\add.png" />
+    <Content Include="Assets\Images\emoticons\biggrin.png" />
+    <Content Include="Assets\Images\emoticons\check.png" />
+    <Content Include="Assets\Images\emoticons\error.png" />
+    <Content Include="Assets\Images\emoticons\forbidden.png" />
+    <Content Include="Assets\Images\emoticons\help_16.png" />
+    <Content Include="Assets\Images\emoticons\information.png" />
+    <Content Include="Assets\Images\emoticons\lightbulb.png" />
+    <Content Include="Assets\Images\emoticons\lightbulb_on.png" />
+    <Content Include="Assets\Images\emoticons\sad.png" />
+    <Content Include="Assets\Images\emoticons\smile.png" />
+    <Content Include="Assets\Images\emoticons\star_blue.png" />
+    <Content Include="Assets\Images\emoticons\star_green.png" />
+    <Content Include="Assets\Images\emoticons\star_red.png" />
+    <Content Include="Assets\Images\emoticons\star_yellow.png" />
+    <Content Include="Assets\Images\emoticons\thumbs_down.png" />
+    <Content Include="Assets\Images\emoticons\thumbs_up.png" />
+    <Content Include="Assets\Images\emoticons\tongue.png" />
+    <Content Include="Assets\Images\emoticons\warning.png" />
+    <Content Include="Assets\Images\emoticons\wink.png" />
     <Content Include="Assets\Images\filemanager\cancel.png" />
     <Content Include="Assets\Images\filemanager\directory.png" />
     <Content Include="Assets\Images\filemanager\file.png" />
@@ -386,6 +406,7 @@
     <None Include="Assets\Scripts\roadkill\typescript-ref\constants.ts" />
     <None Include="Assets\Scripts\roadkill\typescript-ref\references.ts" />
     <Content Include="Assets\Scripts\shared\head.js" />
+    <Content Include="Plugins\EmoticonsPlugin\EmoticonsMappings.xml" />
     <Content Include="Plugins\ExternalLinksInNewWindow\externallinksinnewwindow.js" />
     <Content Include="Plugins\ClickableImages\clickableimages.js" />
     <Content Include="Plugins\ResizeImages\resizeimages.css" />
@@ -530,6 +551,9 @@
     <None Include="packages.config" />
     <Content Include="Plugins\Web.config" />
     <Content Include="Plugins\_ViewStart.cshtml" />
+    <None Include="Plugins\EmoticonsPlugin\EmoticonsMappings.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\PublishProfiles\discountasp.pubxml" />
     <None Include="Properties\PublishProfiles\Mono.pubxml" />
     <Content Include="Assets\Scripts\shared\toastr.js" />

@@ -161,3 +161,10 @@ table#files tr.listrow	{ cursor:pointer; }
 .plugin-disabled	{ min-width:15px;min-height:16px;background: url('images/plugin-disabled.png');margin-top:2px; }
 
 #pluginsettings-save { margin-top:20px; }
+
+/* Hyperlink needs a different color when included in an Alertbox as it matches the background */
+.alert a:link { color:#B45F04 !important;}
+.alert a:active { color:#B45F04 !important;}
+.alert a:hover { color:#B45F04 !important; text-decoration:underline;}
+.alert a:focus { color:#B45F04 !important;}
+.alert a:visited { color:#B45F04 !important;}
