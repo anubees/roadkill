@@ -91,7 +91,8 @@ namespace Roadkill.Core.Plugins.Text.BuiltIn
                 if (myMatch.Success)
                 {
                     Group group = myMatch.Groups[0];
-                    string imageReplacement = string.Format(imageLocation, GetImageForNotation(group.Value));
+                    string mappedPath = System.Web.VirtualPathUtility.ToAbsolute(GetImageForNotation(group.Value));
+                    string imageReplacement = string.Format(imageLocation, mappedPath);
                     html = html.Substring(0, group.Index + advanceIndex) + imageReplacement + html.Substring(group.Index + advanceIndex + group.Length);
                     advanceIndex += imageReplacement.Length - group.Length;
                 }
